@@ -1,0 +1,308 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From GSMinfo:
+* .gitignore
+* .idea/
+* .idea/codeStyles/
+* .idea/codeStyles/Project.xml
+* .idea/gsmtester.iml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* LICENSE
+* README.md
+* ic_launcher-web.png
+* proguard-project.txt
+* yandexmapkit-library/
+* yandexmapkit-library/.classpath
+* yandexmapkit-library/.project
+* yandexmapkit-library/.settings/
+* yandexmapkit-library/.settings/org.eclipse.jdt.core.prefs
+* yandexmapkit-library/AndroidManifest.xml
+* yandexmapkit-library/build.xml
+* yandexmapkit-library/doc/
+* yandexmapkit-library/doc/allclasses-frame.html
+* yandexmapkit-library/doc/deprecated-list.html
+* yandexmapkit-library/doc/help-doc.html
+* yandexmapkit-library/doc/index-all.html
+* yandexmapkit-library/doc/index.html
+* yandexmapkit-library/doc/overview-tree.html
+* yandexmapkit-library/doc/package-list
+* yandexmapkit-library/doc/packages.html
+* yandexmapkit-library/doc/ru/
+* yandexmapkit-library/doc/ru/yandex/
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/MapController.html
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/MapView.html
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/OverlayManager.html
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/map/
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/map/GeoCode.html
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/map/GeoCodeListener.html
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/map/MapEvent.html
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/map/MapLayer.html
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/map/OnMapListener.html
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/net/
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/net/DownloadHandler.html
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/net/DownloadJob.html
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/net/Downloader.html
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/overlay/
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/overlay/IRender.html
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/overlay/Overlay.html
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/overlay/OverlayItem.html
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/overlay/balloon/
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/overlay/balloon/BalloonItem.html
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/overlay/balloon/BalloonRender.html
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/overlay/balloon/OnBalloonListener.html
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/overlay/drag/
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/overlay/drag/DragAndDropItem.html
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/overlay/drag/DragAndDropOverlay.html
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/overlay/location/
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/overlay/location/MyLocationItem.html
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/overlay/location/MyLocationOverlay.html
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/overlay/location/OnMyLocationListener.html
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/utils/
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/utils/CoordConversion.html
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/utils/GeoPoint.html
+* yandexmapkit-library/doc/ru/yandex/yandexmapkit/utils/ScreenPoint.html
+* yandexmapkit-library/doc/serialized-form.html
+* yandexmapkit-library/doc/stylesheet.css
+* yandexmapkit-library/libs/
+* yandexmapkit-library/libs/armeabi/
+* yandexmapkit-library/libs/armeabi/libcache_local.so
+* yandexmapkit-library/libs/classes.jar
+* yandexmapkit-library/proguard-project.txt
+* yandexmapkit-library/project.properties
+* yandexmapkit-library/res/
+* yandexmapkit-library/res/drawable-en-hdpi/
+* yandexmapkit-library/res/drawable-en-hdpi/ymk_ya_logo.png
+* yandexmapkit-library/res/drawable-en-xhdpi/
+* yandexmapkit-library/res/drawable-en-xhdpi/ymk_ya_logo.png
+* yandexmapkit-library/res/drawable-en/
+* yandexmapkit-library/res/drawable-en/ymk_ya_logo.png
+* yandexmapkit-library/res/drawable-hdpi/
+* yandexmapkit-library/res/drawable-hdpi/ymk_balloon_black.9.png
+* yandexmapkit-library/res/drawable-hdpi/ymk_balloon_tail_black.png
+* yandexmapkit-library/res/drawable-hdpi/ymk_sgrayvga.png
+* yandexmapkit-library/res/drawable-hdpi/ymk_sgreenvga.png
+* yandexmapkit-library/res/drawable-hdpi/ymk_sredvga.png
+* yandexmapkit-library/res/drawable-hdpi/ymk_stricolorvga.png
+* yandexmapkit-library/res/drawable-hdpi/ymk_syellowvga.png
+* yandexmapkit-library/res/drawable-hdpi/ymk_tlight_no_level_active.png
+* yandexmapkit-library/res/drawable-hdpi/ymk_tlight_no_level_active_pressed.png
+* yandexmapkit-library/res/drawable-hdpi/ymk_tlight_no_level_inactive.png
+* yandexmapkit-library/res/drawable-hdpi/ymk_tlight_no_level_inactive_pressed.png
+* yandexmapkit-library/res/drawable-hdpi/ymk_tlight_no_level_loading_1.png
+* yandexmapkit-library/res/drawable-hdpi/ymk_tlight_no_level_loading_2.png
+* yandexmapkit-library/res/drawable-hdpi/ymk_tlight_no_level_loading_3.png
+* yandexmapkit-library/res/drawable-hdpi/ymk_user_location_gps.png
+* yandexmapkit-library/res/drawable-hdpi/ymk_user_location_lbs.png
+* yandexmapkit-library/res/drawable-hdpi/ymk_where_am_i.png
+* yandexmapkit-library/res/drawable-hdpi/ymk_where_am_i_pressed.png
+* yandexmapkit-library/res/drawable-hdpi/ymk_ya_logo.png
+* yandexmapkit-library/res/drawable-hdpi/ymk_zoom_minus.png
+* yandexmapkit-library/res/drawable-hdpi/ymk_zoom_minus_pressed.png
+* yandexmapkit-library/res/drawable-hdpi/ymk_zoom_plus.png
+* yandexmapkit-library/res/drawable-hdpi/ymk_zoom_plus_pressed.png
+* yandexmapkit-library/res/drawable-ldpi/
+* yandexmapkit-library/res/drawable-ldpi/ymk_sgrayvga.png
+* yandexmapkit-library/res/drawable-ldpi/ymk_sgreenvga.png
+* yandexmapkit-library/res/drawable-ldpi/ymk_sredvga.png
+* yandexmapkit-library/res/drawable-ldpi/ymk_stricolorvga.png
+* yandexmapkit-library/res/drawable-ldpi/ymk_syellowvga.png
+* yandexmapkit-library/res/drawable-ldpi/ymk_user_location_gps.png
+* yandexmapkit-library/res/drawable-ldpi/ymk_user_location_lbs.png
+* yandexmapkit-library/res/drawable-ldpi/ymk_where_am_i.png
+* yandexmapkit-library/res/drawable-ldpi/ymk_where_am_i_pressed.png
+* yandexmapkit-library/res/drawable-ldpi/ymk_zoom_minus.png
+* yandexmapkit-library/res/drawable-ldpi/ymk_zoom_minus_pressed.png
+* yandexmapkit-library/res/drawable-ldpi/ymk_zoom_plus.png
+* yandexmapkit-library/res/drawable-ldpi/ymk_zoom_plus_pressed.png
+* yandexmapkit-library/res/drawable-mdpi/
+* yandexmapkit-library/res/drawable-mdpi/ymk_balloon_black.9.png
+* yandexmapkit-library/res/drawable-mdpi/ymk_balloon_tail_black.png
+* yandexmapkit-library/res/drawable-mdpi/ymk_sgrayvga.png
+* yandexmapkit-library/res/drawable-mdpi/ymk_sgreenvga.png
+* yandexmapkit-library/res/drawable-mdpi/ymk_sredvga.png
+* yandexmapkit-library/res/drawable-mdpi/ymk_stricolorvga.png
+* yandexmapkit-library/res/drawable-mdpi/ymk_syellowvga.png
+* yandexmapkit-library/res/drawable-mdpi/ymk_user_location_gps.png
+* yandexmapkit-library/res/drawable-mdpi/ymk_user_location_lbs.png
+* yandexmapkit-library/res/drawable-mdpi/ymk_where_am_i.png
+* yandexmapkit-library/res/drawable-mdpi/ymk_where_am_i_pressed.png
+* yandexmapkit-library/res/drawable-mdpi/ymk_zoom_minus.png
+* yandexmapkit-library/res/drawable-mdpi/ymk_zoom_minus_pressed.png
+* yandexmapkit-library/res/drawable-mdpi/ymk_zoom_plus.png
+* yandexmapkit-library/res/drawable-mdpi/ymk_zoom_plus_pressed.png
+* yandexmapkit-library/res/drawable-v3/
+* yandexmapkit-library/res/drawable-v3/ymk_balloon_black.9.png
+* yandexmapkit-library/res/drawable-v3/ymk_balloon_tail_black.png
+* yandexmapkit-library/res/drawable-v3/ymk_empty_image.png
+* yandexmapkit-library/res/drawable-v3/ymk_no_map_image.png
+* yandexmapkit-library/res/drawable-v3/ymk_scale.png
+* yandexmapkit-library/res/drawable-v3/ymk_sgrayvga.png
+* yandexmapkit-library/res/drawable-v3/ymk_sgreenvga.png
+* yandexmapkit-library/res/drawable-v3/ymk_sredvga.png
+* yandexmapkit-library/res/drawable-v3/ymk_stricolorvga.png
+* yandexmapkit-library/res/drawable-v3/ymk_syellowvga.png
+* yandexmapkit-library/res/drawable-v3/ymk_user_location_gps.png
+* yandexmapkit-library/res/drawable-v3/ymk_user_location_lbs.png
+* yandexmapkit-library/res/drawable-v3/ymk_where_am_i.png
+* yandexmapkit-library/res/drawable-v3/ymk_where_am_i_pressed.png
+* yandexmapkit-library/res/drawable-v3/ymk_zoom_minus.png
+* yandexmapkit-library/res/drawable-v3/ymk_zoom_minus_pressed.png
+* yandexmapkit-library/res/drawable-v3/ymk_zoom_plus.png
+* yandexmapkit-library/res/drawable-v3/ymk_zoom_plus_pressed.png
+* yandexmapkit-library/res/drawable-xhdpi/
+* yandexmapkit-library/res/drawable-xhdpi/ymk_balloon_black.9.png
+* yandexmapkit-library/res/drawable-xhdpi/ymk_balloon_tail_black.png
+* yandexmapkit-library/res/drawable-xhdpi/ymk_sgrayvga.png
+* yandexmapkit-library/res/drawable-xhdpi/ymk_sgreenvga.png
+* yandexmapkit-library/res/drawable-xhdpi/ymk_sredvga.png
+* yandexmapkit-library/res/drawable-xhdpi/ymk_stricolorvga.png
+* yandexmapkit-library/res/drawable-xhdpi/ymk_syellowvga.png
+* yandexmapkit-library/res/drawable-xhdpi/ymk_tlight_no_level_active.png
+* yandexmapkit-library/res/drawable-xhdpi/ymk_tlight_no_level_active_pressed.png
+* yandexmapkit-library/res/drawable-xhdpi/ymk_tlight_no_level_inactive.png
+* yandexmapkit-library/res/drawable-xhdpi/ymk_tlight_no_level_inactive_pressed.png
+* yandexmapkit-library/res/drawable-xhdpi/ymk_tlight_no_level_loading_1.png
+* yandexmapkit-library/res/drawable-xhdpi/ymk_tlight_no_level_loading_2.png
+* yandexmapkit-library/res/drawable-xhdpi/ymk_tlight_no_level_loading_3.png
+* yandexmapkit-library/res/drawable-xhdpi/ymk_user_location_gps.png
+* yandexmapkit-library/res/drawable-xhdpi/ymk_user_location_lbs.png
+* yandexmapkit-library/res/drawable-xhdpi/ymk_where_am_i.png
+* yandexmapkit-library/res/drawable-xhdpi/ymk_where_am_i_pressed.png
+* yandexmapkit-library/res/drawable-xhdpi/ymk_ya_logo.png
+* yandexmapkit-library/res/drawable-xhdpi/ymk_zoom_minus.png
+* yandexmapkit-library/res/drawable-xhdpi/ymk_zoom_minus_pressed.png
+* yandexmapkit-library/res/drawable-xhdpi/ymk_zoom_plus.png
+* yandexmapkit-library/res/drawable-xhdpi/ymk_zoom_plus_pressed.png
+* yandexmapkit-library/res/drawable/
+* yandexmapkit-library/res/drawable/ymk_balloon_text_color.xml
+* yandexmapkit-library/res/drawable/ymk_empty_image.png
+* yandexmapkit-library/res/drawable/ymk_find_me_drawable.xml
+* yandexmapkit-library/res/drawable/ymk_no_map_image.png
+* yandexmapkit-library/res/drawable/ymk_scale.png
+* yandexmapkit-library/res/drawable/ymk_tlight_loading.xml
+* yandexmapkit-library/res/drawable/ymk_ya_logo.png
+* yandexmapkit-library/res/drawable/ymk_zoom_minus_drawable.xml
+* yandexmapkit-library/res/drawable/ymk_zoom_plus_drawable.xml
+* yandexmapkit-library/res/layout/
+* yandexmapkit-library/res/layout/ymk_balloon_default_layout.xml
+* yandexmapkit-library/res/layout/ymk_screen_buttons_layout.xml
+* yandexmapkit-library/res/values/
+* yandexmapkit-library/res/values/ymk_strings.xml
+* yandexmapkit-library/res/xml/
+* yandexmapkit-library/res/xml/ymk_map_layers.xml
+* yandexmapkit-library/src/
+* yandexmapkit-library/src/dummy.txt
+From yandexmapkit-library:
+* build.xml
+* doc/
+* doc/allclasses-frame.html
+* doc/deprecated-list.html
+* doc/help-doc.html
+* doc/index-all.html
+* doc/index.html
+* doc/overview-tree.html
+* doc/package-list
+* doc/packages.html
+* doc/ru/
+* doc/ru/yandex/
+* doc/ru/yandex/yandexmapkit/
+* doc/ru/yandex/yandexmapkit/MapController.html
+* doc/ru/yandex/yandexmapkit/MapView.html
+* doc/ru/yandex/yandexmapkit/OverlayManager.html
+* doc/ru/yandex/yandexmapkit/map/
+* doc/ru/yandex/yandexmapkit/map/GeoCode.html
+* doc/ru/yandex/yandexmapkit/map/GeoCodeListener.html
+* doc/ru/yandex/yandexmapkit/map/MapEvent.html
+* doc/ru/yandex/yandexmapkit/map/MapLayer.html
+* doc/ru/yandex/yandexmapkit/map/OnMapListener.html
+* doc/ru/yandex/yandexmapkit/net/
+* doc/ru/yandex/yandexmapkit/net/DownloadHandler.html
+* doc/ru/yandex/yandexmapkit/net/DownloadJob.html
+* doc/ru/yandex/yandexmapkit/net/Downloader.html
+* doc/ru/yandex/yandexmapkit/overlay/
+* doc/ru/yandex/yandexmapkit/overlay/IRender.html
+* doc/ru/yandex/yandexmapkit/overlay/Overlay.html
+* doc/ru/yandex/yandexmapkit/overlay/OverlayItem.html
+* doc/ru/yandex/yandexmapkit/overlay/balloon/
+* doc/ru/yandex/yandexmapkit/overlay/balloon/BalloonItem.html
+* doc/ru/yandex/yandexmapkit/overlay/balloon/BalloonRender.html
+* doc/ru/yandex/yandexmapkit/overlay/balloon/OnBalloonListener.html
+* doc/ru/yandex/yandexmapkit/overlay/drag/
+* doc/ru/yandex/yandexmapkit/overlay/drag/DragAndDropItem.html
+* doc/ru/yandex/yandexmapkit/overlay/drag/DragAndDropOverlay.html
+* doc/ru/yandex/yandexmapkit/overlay/location/
+* doc/ru/yandex/yandexmapkit/overlay/location/MyLocationItem.html
+* doc/ru/yandex/yandexmapkit/overlay/location/MyLocationOverlay.html
+* doc/ru/yandex/yandexmapkit/overlay/location/OnMyLocationListener.html
+* doc/ru/yandex/yandexmapkit/utils/
+* doc/ru/yandex/yandexmapkit/utils/CoordConversion.html
+* doc/ru/yandex/yandexmapkit/utils/GeoPoint.html
+* doc/ru/yandex/yandexmapkit/utils/ScreenPoint.html
+* doc/serialized-form.html
+* doc/stylesheet.css
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In yandexmapkit-library:
+* AndroidManifest.xml => yandexmapkitlibrary/src/main/AndroidManifest.xml
+* libs/armeabi/libcache_local.so => yandexmapkitlibrary/src/main/jniLibs/armeabi/libcache_local.so
+* libs/classes.jar => yandexmapkitlibrary/libs/classes.jar
+* res/ => yandexmapkitlibrary/src/main/res/
+* src/ => yandexmapkitlibrary/src/main/java
+* src/dummy.txt => yandexmapkitlibrary/src/main/resources/dummy.txt
+In GSMinfo:
+* AndroidManifest.xml => gSMinfo/src/main/AndroidManifest.xml
+* lint.xml => gSMinfo/lint.xml
+* res/ => gSMinfo/src/main/res/
+* src/ => gSMinfo/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

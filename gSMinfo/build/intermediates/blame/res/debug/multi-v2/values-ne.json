@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/kon/AndroidStudioProjects/gsmtester/gSMinfo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ne/values-ne.xml",
+            "map": [
+                {
+                    "source": "/home/kon/.gradle/caches/transforms-2/files-2.1/5e395bae4e00ec017ce476404d11e882/support-compat-27.1.1/res/values-ne/values-ne.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

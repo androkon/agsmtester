@@ -1,0 +1,146 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:2:1-45:12
+MERGED from [com.android.support:support-v4:27.1.1] /home/kon/.gradle/caches/transforms-2/files-2.1/b85946afde5a43ea608eda5eccc7d9e8/support-v4-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [ru.yandex:yandexmapkit:2.5.4] /home/kon/.gradle/caches/transforms-2/files-2.1/7ed68d329760ebdb3c3f82f2c1d21e6f/yandexmapkit-2.5.4/AndroidManifest.xml:2:1-23:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/kon/.gradle/caches/transforms-2/files-2.1/9c0db70b5ab5bab747773bbfa20f7935/support-media-compat-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/kon/.gradle/caches/transforms-2/files-2.1/2504c5ed5ee9545e92a6ed94245b7109/support-fragment-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/kon/.gradle/caches/transforms-2/files-2.1/0e4b8c4d5beadb2d153c0a2ae7561179/support-core-ui-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/kon/.gradle/caches/transforms-2/files-2.1/9ebd575325adb4f1715cbd33cc7fb1eb/support-core-utils-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/kon/.gradle/caches/transforms-2/files-2.1/5e395bae4e00ec017ce476404d11e882/support-compat-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/kon/.gradle/caches/transforms-2/files-2.1/2e39cb929360acecda17a30f51c91155/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/kon/.gradle/caches/transforms-2/files-2.1/1e0d6bc8ae15351e705eea926fa992b3/livedata-core-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/kon/.gradle/caches/transforms-2/files-2.1/e29b9d9bab2be31618a2ec772979406c/viewmodel-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/kon/.gradle/caches/transforms-2/files-2.1/d05cd91fa0e0d00f971cc74baae16029/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:2:1-45:12
+	package
+		ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml
+		INJECTED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml
+		INJECTED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml
+		INJECTED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:7:5-75
+	android:name
+		ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:7:22-72
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:8:5-79
+MERGED from [ru.yandex:yandexmapkit:2.5.4] /home/kon/.gradle/caches/transforms-2/files-2.1/7ed68d329760ebdb3c3f82f2c1d21e6f/yandexmapkit-2.5.4/AndroidManifest.xml:18:5-79
+MERGED from [ru.yandex:yandexmapkit:2.5.4] /home/kon/.gradle/caches/transforms-2/files-2.1/7ed68d329760ebdb3c3f82f2c1d21e6f/yandexmapkit-2.5.4/AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:9:2-78
+	android:name
+		ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:9:19-75
+uses-permission#android.permission.INTERNET
+ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:10:2-64
+MERGED from [ru.yandex:yandexmapkit:2.5.4] /home/kon/.gradle/caches/transforms-2/files-2.1/7ed68d329760ebdb3c3f82f2c1d21e6f/yandexmapkit-2.5.4/AndroidManifest.xml:16:5-67
+MERGED from [ru.yandex:yandexmapkit:2.5.4] /home/kon/.gradle/caches/transforms-2/files-2.1/7ed68d329760ebdb3c3f82f2c1d21e6f/yandexmapkit-2.5.4/AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:10:19-61
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:11:2-76
+MERGED from [ru.yandex:yandexmapkit:2.5.4] /home/kon/.gradle/caches/transforms-2/files-2.1/7ed68d329760ebdb3c3f82f2c1d21e6f/yandexmapkit-2.5.4/AndroidManifest.xml:19:5-79
+MERGED from [ru.yandex:yandexmapkit:2.5.4] /home/kon/.gradle/caches/transforms-2/files-2.1/7ed68d329760ebdb3c3f82f2c1d21e6f/yandexmapkit-2.5.4/AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:11:19-73
+application
+ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:27:5-43:19
+	android:label
+		ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:30:9-41
+	android:icon
+		ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:29:9-45
+	android:allowBackup
+		ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:28:9-35
+	android:theme
+		ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:31:9-40
+activity#ru.konsoft.gsmtester.GSMinfo
+ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:32:9-40:20
+	android:label
+		ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:34:13-45
+	android:name
+		ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:33:13-36
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:35:13-39:29
+action#android.intent.action.MAIN
+ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:38:27-74
+service#ru.konsoft.gsmtester.GSMservice
+ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:42:3-41
+	android:name
+		ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml:42:12-38
+uses-sdk
+INJECTED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml
+INJECTED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-v4:27.1.1] /home/kon/.gradle/caches/transforms-2/files-2.1/b85946afde5a43ea608eda5eccc7d9e8/support-v4-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/kon/.gradle/caches/transforms-2/files-2.1/b85946afde5a43ea608eda5eccc7d9e8/support-v4-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [ru.yandex:yandexmapkit:2.5.4] /home/kon/.gradle/caches/transforms-2/files-2.1/7ed68d329760ebdb3c3f82f2c1d21e6f/yandexmapkit-2.5.4/AndroidManifest.xml:7:5-9:41
+MERGED from [ru.yandex:yandexmapkit:2.5.4] /home/kon/.gradle/caches/transforms-2/files-2.1/7ed68d329760ebdb3c3f82f2c1d21e6f/yandexmapkit-2.5.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/kon/.gradle/caches/transforms-2/files-2.1/9c0db70b5ab5bab747773bbfa20f7935/support-media-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/kon/.gradle/caches/transforms-2/files-2.1/9c0db70b5ab5bab747773bbfa20f7935/support-media-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/kon/.gradle/caches/transforms-2/files-2.1/2504c5ed5ee9545e92a6ed94245b7109/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/kon/.gradle/caches/transforms-2/files-2.1/2504c5ed5ee9545e92a6ed94245b7109/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/kon/.gradle/caches/transforms-2/files-2.1/0e4b8c4d5beadb2d153c0a2ae7561179/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/kon/.gradle/caches/transforms-2/files-2.1/0e4b8c4d5beadb2d153c0a2ae7561179/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/kon/.gradle/caches/transforms-2/files-2.1/9ebd575325adb4f1715cbd33cc7fb1eb/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/kon/.gradle/caches/transforms-2/files-2.1/9ebd575325adb4f1715cbd33cc7fb1eb/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/kon/.gradle/caches/transforms-2/files-2.1/5e395bae4e00ec017ce476404d11e882/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/kon/.gradle/caches/transforms-2/files-2.1/5e395bae4e00ec017ce476404d11e882/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/kon/.gradle/caches/transforms-2/files-2.1/2e39cb929360acecda17a30f51c91155/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/kon/.gradle/caches/transforms-2/files-2.1/2e39cb929360acecda17a30f51c91155/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/kon/.gradle/caches/transforms-2/files-2.1/1e0d6bc8ae15351e705eea926fa992b3/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/kon/.gradle/caches/transforms-2/files-2.1/1e0d6bc8ae15351e705eea926fa992b3/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/kon/.gradle/caches/transforms-2/files-2.1/e29b9d9bab2be31618a2ec772979406c/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/kon/.gradle/caches/transforms-2/files-2.1/e29b9d9bab2be31618a2ec772979406c/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/kon/.gradle/caches/transforms-2/files-2.1/d05cd91fa0e0d00f971cc74baae16029/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/kon/.gradle/caches/transforms-2/files-2.1/d05cd91fa0e0d00f971cc74baae16029/runtime-1.1.0/AndroidManifest.xml:20:5-44
+INJECTED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml
+INJECTED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml
+		ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml
+		INJECTED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml
+		ADDED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml
+		INJECTED from /home/kon/AndroidStudioProjects/gsmtester/gSMinfo/src/main/AndroidManifest.xml
+supports-screens
+ADDED from [ru.yandex:yandexmapkit:2.5.4] /home/kon/.gradle/caches/transforms-2/files-2.1/7ed68d329760ebdb3c3f82f2c1d21e6f/yandexmapkit-2.5.4/AndroidManifest.xml:11:5-14:39
+	android:largeScreens
+		ADDED from [ru.yandex:yandexmapkit:2.5.4] /home/kon/.gradle/caches/transforms-2/files-2.1/7ed68d329760ebdb3c3f82f2c1d21e6f/yandexmapkit-2.5.4/AndroidManifest.xml:12:9-36
+	android:smallScreens
+		ADDED from [ru.yandex:yandexmapkit:2.5.4] /home/kon/.gradle/caches/transforms-2/files-2.1/7ed68d329760ebdb3c3f82f2c1d21e6f/yandexmapkit-2.5.4/AndroidManifest.xml:14:9-36
+	android:normalScreens
+		ADDED from [ru.yandex:yandexmapkit:2.5.4] /home/kon/.gradle/caches/transforms-2/files-2.1/7ed68d329760ebdb3c3f82f2c1d21e6f/yandexmapkit-2.5.4/AndroidManifest.xml:13:9-37
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [ru.yandex:yandexmapkit:2.5.4] /home/kon/.gradle/caches/transforms-2/files-2.1/7ed68d329760ebdb3c3f82f2c1d21e6f/yandexmapkit-2.5.4/AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from [ru.yandex:yandexmapkit:2.5.4] /home/kon/.gradle/caches/transforms-2/files-2.1/7ed68d329760ebdb3c3f82f2c1d21e6f/yandexmapkit-2.5.4/AndroidManifest.xml:17:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [ru.yandex:yandexmapkit:2.5.4] /home/kon/.gradle/caches/transforms-2/files-2.1/7ed68d329760ebdb3c3f82f2c1d21e6f/yandexmapkit-2.5.4/AndroidManifest.xml:20:5-76
+	android:name
+		ADDED from [ru.yandex:yandexmapkit:2.5.4] /home/kon/.gradle/caches/transforms-2/files-2.1/7ed68d329760ebdb3c3f82f2c1d21e6f/yandexmapkit-2.5.4/AndroidManifest.xml:20:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from [ru.yandex:yandexmapkit:2.5.4] /home/kon/.gradle/caches/transforms-2/files-2.1/7ed68d329760ebdb3c3f82f2c1d21e6f/yandexmapkit-2.5.4/AndroidManifest.xml:21:5-76
+	android:name
+		ADDED from [ru.yandex:yandexmapkit:2.5.4] /home/kon/.gradle/caches/transforms-2/files-2.1/7ed68d329760ebdb3c3f82f2c1d21e6f/yandexmapkit-2.5.4/AndroidManifest.xml:21:22-73
